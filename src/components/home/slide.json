@@ -1,0 +1,92 @@
+[
+    {
+        "heading": "Welcome to Shopery",
+        "title": "Fresh & Healthy Organic Food",
+        "offer": "Sale up to",
+        "percentage": "30% OFF",
+        "description": "Free shipping on all your orders. We deliver, you enjoy.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Organic Food Banner"
+    },
+    {
+        "heading": "Exclusive Collection",
+        "title": "Best Deals on Organic Vegetables",
+        "offer": "Save Big",
+        "percentage": "40% OFF",
+        "description": "Shop fresh veggies at the best price, delivered straight to your door.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Vegetable Deals Banner"
+    },
+    {
+        "heading": "New Arrivals",
+        "title": "Fresh Fruits for Your Health",
+        "offer": "Special Offer",
+        "percentage": "20% OFF",
+        "description": "Get the best quality fruits at amazing prices, delivered fresh.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Fresh Fruits Banner"
+    },
+    {
+        "heading": "Top Quality",
+        "title": "Organic Dairy Products",
+        "offer": "Discount Up To",
+        "percentage": "25% OFF",
+        "description": "Experience the freshness of organic dairy products for your family.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Dairy Products Banner"
+    },
+    {
+        "heading": "Freshly Packed",
+        "title": "Premium Meat & Poultry",
+        "offer": "Best Prices",
+        "percentage": "35% OFF",
+        "description": "Enjoy high-quality meat and poultry delivered to your doorstep.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Meat and Poultry Banner"
+    },
+    {
+        "heading": "Hot Deals",
+        "title": "Baked Goods & Snacks",
+        "offer": "Limited Time",
+        "percentage": "15% OFF",
+        "description": "Grab the best deals on freshly baked goods and snacks.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Baked Goods Banner"
+    },
+    {
+        "heading": "Daily Essentials",
+        "title": "Grains, Pulses & Cereals",
+        "offer": "Flat Discount",
+        "percentage": "10% OFF",
+        "description": "Stock up on daily essentials at unbeatable prices.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Grains and Pulses Banner"
+    },
+    {
+        "heading": "Healthy Choices",
+        "title": "Natural Health Supplements",
+        "offer": "Exclusive",
+        "percentage": "50% OFF",
+        "description": "Boost your health with our wide range of natural supplements.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Health Supplements Banner"
+    },
+    {
+        "heading": "Special Picks",
+        "title": "Handpicked Organic Spices",
+        "offer": "Hot Deal",
+        "percentage": "20% OFF",
+        "description": "Enhance your cooking with our handpicked, organic spices.",
+        "imageSrc": "/banner.png",
+        "imageAlt": "Organic Spices Banner"
+    },
+    {
+        "heading": "Eco-Friendly",
+        "title": "Reusable Grocery Bags",
+        "offer": "Save More",
+        "percentage": "30% OFF",
+        "description": "Go green with our eco-friendly reusable grocery bags.",
+        "imageSrc": "/banner0.png",
+        "imageAlt": "Grocery Bags Banner"
+    }
+]
