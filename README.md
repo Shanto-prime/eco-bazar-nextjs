@@ -50,7 +50,7 @@ This project utilizes modern and scalable technologies:
 │   │   ├── banner2.png
 │   │   ├── banner3.png
 ├── README.md
-
+```
 ### Key Updates:
 1. Added clear sections for **Contact**, **Contributions**, and **License**.
 2. Enhanced formatting for better readability.

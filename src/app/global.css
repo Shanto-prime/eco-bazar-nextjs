@@ -1,57 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .swiper {
     width: 100%;
     height: 650px;
-  }
-  
-  .swiper-slide {
-    background: #EDF2EE;
-  }
-  .swiper-pagination-horizontal {
-    bottom: 60px !important;
-    
-  }
-  .swiper-pagination-bullet{
-    width: 8px!important;
-    height: 8px!important;
-  }
-  
-  .swiper-pagination-bullet-active{
-    width: 16px!important;
-    border-radius: 5px!important;
-    background-color: #00B307!important;
-  }
-  .swiper-pagination-bullet-active-next,
-  .swiper-pagination-bullet-active-prev{
-    width: 8px!important;
-    height: 8px!important;
-    margin: 0!important;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide {
+    background: #EDF2EE;
+}
+
+.swiper-pagination-horizontal {
+    bottom: 60px !important;
+
+}
+
+.swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 16px !important;
+    border-radius: 5px !important;
+    background-color: #00B307 !important;
+}
+
+.swiper-pagination-bullet-active-next,
+.swiper-pagination-bullet-active-prev {
+    width: 8px !important;
+    height: 8px !important;
+    margin: 0 !important;
+}
+
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-
-  .base-color{
-    color: #00B307;
-  }
-  .base-bg{
-    background-color: #00B307;
-  }
-  .base-gray{
-    color: #1A1A1A;
-  }
-  .light-gray{
-    color: #808080;
-  }
-  .light-green-bg{
-    background-color: #00B30730;
-  }
-  .base-orange{
-    color: #FF8A00;
-  }
+}

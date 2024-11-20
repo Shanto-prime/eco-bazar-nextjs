@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import slides from './slide.json';
+import RightArrow from '../icons/RightArrow';
 
 
 export default function HeroSection() {
@@ -24,12 +25,14 @@ export default function HeroSection() {
                         <SwiperSlide key={index}>
                             <div className='flex flex-row p-24 items-center'>
                                 <div className='flex flex-col items-start text-left my-5'>
-                                    <h6 className='base-color my-2'>{slide.heading}</h6>
-                                    <h4 className='text-7xl font-semibold base-gray mb-7'>{slide.title}</h4>
-                                    <h5 className='text-3xl mb-3'>{slide.offer} <span className='base-orange font-semibold'>{slide.percentage}</span></h5>
+                                    <h6 className='text-base my-2'>{slide.heading}</h6>
+                                    <h4 className='text-7xl font-semibold text-gray-900 mb-7'>{slide.title}</h4>
+                                    <h5 className='text-3xl mb-3'>{slide.offer} <span className='text-orange font-semibold'>{slide.percentage}</span></h5>
 
-                                    <p className='text-sm light-gray mb-8'>{slide.description}</p>
-                                    <button className='btn base-bg rounded-full !hover:base-gray text-white'>Shop Now <box-icon name='right-arrow-alt' color='white'></box-icon></button>
+                                    <p className='text-sm text-gray-600 mb-8'>{slide.description}</p>
+                                    <button className='btn bg-base rounded-full hover:text-gray-900 text-white'>Shop Now 
+                                        <RightArrow />
+                                    </button>
                                 </div>
                                 <div>
                                     <Image
@@ -47,50 +50,50 @@ export default function HeroSection() {
             <div className='flex flex-row justify-between p-10 shadow-xl absolute container z-10 bg-white rounded-lg -bottom-20'>
                 <div className='flex flex-row items-center gap-4'>
                     <Image
-                        src="/shipping.png"
-                        alt="banner"
+                        src="/delivery.svg"
+                        alt="delivery van"
                         width={40}
                         height={30}
                     />
                     <div>
                         <p className='font-semibold'>Free Shipping</p>
-                        <p className='light-gray'>Free shipping on all your order</p>
+                        <p className='text-gray-500'>Free shipping on all your order</p>
                     </div>
                 </div>
                 <div className='flex flex-row items-center gap-4'>
                     <Image
-                        src="/support.png"
-                        alt="banner"
+                        src="/headphones.svg"
+                        alt="customer support"
                         width={40}
                         height={30}
                     />
                     <div>
                         <p className='font-semibold'>Customer Support 24/7</p>
-                        <p className='light-gray'>Instant access to support</p>
+                        <p className='text-gray-500'>Instant access to support</p>
                     </div>
                 </div>
                 <div className='flex flex-row items-center gap-4'>
                     <Image
-                        src="/bag.png"
-                        alt="banner"
+                        src="/shopping-bag.svg"
+                        alt="shopping bag"
                         width={40}
                         height={30}
                     />
                     <div>
                         <p className='font-semibold'>Secure Payment</p>
-                        <p className='light-gray'>We ensure your money is save</p>
+                        <p className='text-gray-500'>We ensure your money is save</p>
                     </div>
                 </div>
                 <div className='flex flex-row items-center gap-4'>
                     <Image
-                        src="/bag.png"
-                        alt="banner"
+                        src="/moneyBack.svg"
+                        alt="moneyBack"
                         width={40}
                         height={30}
                     />
                     <div>
                         <p className='font-semibold'>Money Back Guarantee</p>
-                        <p className='light-gray'>30 Days Money-Back Guarantee</p>
+                        <p className='text-gray-500'>30 Days Money-Back Guarantee</p>
                     </div>
                 </div>
             </div>
