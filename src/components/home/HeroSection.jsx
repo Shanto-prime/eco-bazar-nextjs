@@ -52,8 +52,8 @@ export default function HeroSection() {
                     <Image
                         src="/delivery.svg"
                         alt="delivery van"
-                        width={40}
-                        height={30}
+                        width={40 | `${10}`}
+                        height={30 | `${8}`}
                     />
                     <div>
                         <p className='font-semibold'>Free Shipping</p>
