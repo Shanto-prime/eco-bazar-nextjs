@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Star from "../icons/Star";
 import StarBase from "../icons/StarBase";

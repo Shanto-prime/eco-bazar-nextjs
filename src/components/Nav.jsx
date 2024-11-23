@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import React, { useState } from 'react';
 import 'boxicons'
-import DownArrow from './icons/DownArrow';
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 

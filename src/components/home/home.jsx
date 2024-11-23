@@ -7,7 +7,7 @@ import FeaturedProducts from "@/components/home/FeaturedProducts";
 import HeroSection from "@/components/home/HeroSection";
 import Nav from "@/components/Nav";
 
-export default function LandingPage() {
+export default function Home() {
     return (
         <>
             <Nav />
