@@ -6,7 +6,7 @@ import ShoppingBag from "../icons/ShoppingBag";
 export default function Deals() {
     return (
         <>
-            <div className="my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  mx-auto container gap-6">
+            <div className="my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  mx-auto px-4 gap-6">
                 <div className="">
                     <div className="flex flex-col gap-4">
                         <h2 className="text-xl font-medium">Hot Deals</h2>
@@ -113,7 +113,7 @@ export default function Deals() {
                 </div>
                 <div className="">
                     <div className="flex flex-col gap-4">
-                        <h2 className="text-xl font-medium">Hot Deals</h2>
+                        <h2 className="text-xl font-medium">Best Seller</h2>
                         {/* card details */}
                         <div className="shadow-xl border-2 transition-all duration-700 border-transparent hover:border-base-hard rounded-md p-4 flex flex-row" key="j2">
                             <Image
@@ -218,7 +218,7 @@ export default function Deals() {
                 </div>
                 <div className="">
                     <div className="flex flex-col gap-4">
-                        <h2 className="text-xl font-medium">Hot Deals</h2>
+                        <h2 className="text-xl font-medium">Top Rated</h2>
                         {/* card details */}
                         <div className="shadow-xl border-2 transition-all duration-700 border-transparent hover:border-base-hard rounded-md p-4 flex flex-row" key="j2">
                             <Image

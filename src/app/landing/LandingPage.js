@@ -15,23 +15,22 @@ export default function LandingPage() {
                 <HeroSection /> {/*  heroSection */}
             </div>
             <div className="container mx-auto relative">
-            <FeaturedProducts /> {/*  Featured Products */}
+                <FeaturedProducts /> {/*  Featured Products */}
             </div>
             <div className="container mx-auto relative">
-            <Deals /> {/*  Featured Products Deals*/}
+                <Deals /> {/*  Featured Products Deals*/}
             </div>
 
-            
-            <div className="bg-[#00ff33] pt-5">
-                <p>Cards</p>
+
+            <div className="bg-[#00ff33] pt-5 container mx-auto">
                 <p>Top category</p>
                 <p>Offers</p>
                 <p>Newest Products</p>
                 <p>Reviews</p>
                 <p>Newsletters</p>
+                <Cart></Cart>
+                <AddCart></AddCart>
             </div>
-            <Cart></Cart>
-            <AddCart></AddCart>
         </>
     );
 }
