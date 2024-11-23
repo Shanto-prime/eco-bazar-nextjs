@@ -8,8 +8,8 @@ const Nav = () => {
 
     return (
         <>
-            <div className="flex mx-auto justify-center px-4">
-                <div className="container flex justify-between py-4">
+            <div className="flex flex-col mx-auto justify-center px-4">
+                <div className="container flex justify-between py-4 mx-auto">
                     <p className="text-[#666666] poppins text-[13px]">Free shipping on all orders over $50</p>
                     <div className="text-[#666666] md:flex flex-row gap-4 poppins hidden">
                         <div className='flex flex-row flex-wrap items-center'>
@@ -27,6 +27,7 @@ const Nav = () => {
                         </div>
                     </div>
                 </div>
+                <hr className='border-b-2 w-full mt-3 border-gray-200'/>
             </div>
             <div className="container md:flex justify-between md:py-7 py-3 mx-auto px-4">
                 <div className='flex flex-row gap-2 items-center'>
@@ -57,11 +58,11 @@ const Nav = () => {
                     </div>
                 </div>
             </div>
-            <nav className="px-4 py-5 lg:bg-gray-800">
+            <nav className="px-4 py-5 lg:bg-[#333333]">
                 <div className='container mx-auto'>
                     {/* Navbar for larger devices */}
                     <div className="hidden lg:flex justify-between items-center">
-                        <div className="flex justify-between gap-3 items-center text-gray-500">
+                        <div className="flex justify-between gap-3 items-center text-white">
                             <div className="group relative">
                                 <details className="dropdown">
                                     <summary className=" m-1">Home</summary>
@@ -82,13 +83,13 @@ const Nav = () => {
                                     </ul>
                                 </details>
                             </div>
-                            <div className="flex items-center text-gray-500">
+                            <div className="flex items-center text-white">
+                                <box-icon name="chevron-right" color="#999999"></box-icon>
                                 <h4>Pages</h4>
-                                <box-icon name="chevron-down" color="#999999"></box-icon>
                             </div>
-                            <div className="flex items-center text-gray-500">
+                            <div className="flex items-center text-white">
+                                <box-icon name="chevron-right" color="#999999"></box-icon>
                                 <h4>Blog</h4>
-                                <box-icon name="chevron-down" color="#999999"></box-icon>
                             </div>
                             <div>About Us</div>
                             <div>Contact Us</div>

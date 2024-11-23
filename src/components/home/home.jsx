@@ -22,7 +22,7 @@ export default function Home() {
             </div>
 
 
-            <div className="bg-[#00ff33] pt-5 container mx-auto">
+            <div className="bg-[#2093ff] py-5 px-4 container mx-auto">
                 <p>Top category</p>
                 <p>Offers</p>
                 <p>Newest Products</p>
