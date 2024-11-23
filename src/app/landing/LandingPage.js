@@ -2,6 +2,7 @@
 
 import AddCart from "@/components/addCart";
 import Cart from "@/components/cart";
+import Deals from "@/components/home/Deals";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import HeroSection from "@/components/home/HeroSection";
 import Nav from "@/components/Nav";
@@ -16,10 +17,11 @@ export default function LandingPage() {
             <div className="container mx-auto relative">
             <FeaturedProducts /> {/*  Featured Products */}
             </div>
+            <div className="container mx-auto relative">
+            <Deals /> {/*  Featured Products Deals*/}
+            </div>
 
             
-
-
             <div className="bg-[#00ff33] pt-5">
                 <p>Cards</p>
                 <p>Top category</p>

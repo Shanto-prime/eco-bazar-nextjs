@@ -39,7 +39,7 @@ const Nav = () => {
                     />
                     <h1 className='poppins text-2xl font-medium text-[#002603]'>Ecobazar</h1>
                 </div>
-                <div className='w-full my-5'>
+                <div className='w-full md:w-96 my-5'>
                     <label className="input w-full md:w-[420px] lg:w-[500px] flex items-center justify-between gap-2 pl-5 pr-0">
                         <box-icon name='search' animation='flashing' ></box-icon>
                         <input type="text" className="w-full" placeholder="Search Here" />

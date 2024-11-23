@@ -3,7 +3,7 @@ import SectionHeader from "../shared/SectionHeader";
 import Star from "../icons/Star";
 import StarBase from "../icons/StarBase";
 import ShoppingBag from "../icons/ShoppingBag";
-import featuredProduct from "./featuredProduct.json"
+import featuredProduct from "../../../src/store/featuredProduct.json"
 
 export default function FeaturedProducts() {
     return (
@@ -50,7 +50,6 @@ export default function FeaturedProducts() {
                     ))}
                 </div>
             </div>
-
         </>
     );
 }
