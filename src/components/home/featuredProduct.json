@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "image": "/apple.png",
+      "name": "Green Apple",
+      "price": 14.99,
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "image": "/cabbage.png",
+      "name": "Chinese Cabbage",
+      "price": 9.99,
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "image": "/lettuce.png",
+      "name": "Green Lettuce",
+      "price": 12.49,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "image": "/chili.png",
+      "name": "Green Chili",
+      "price": 12.49,
+      "rating": 1
+    },
+    {
+      "id": 5,
+      "image": "/corn.png",
+      "name": "Corn",
+      "price": 12.49,
+      "rating": 2
+    }
+  ]
+  

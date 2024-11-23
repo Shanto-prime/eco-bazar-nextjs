@@ -12,22 +12,22 @@ import RightArrow from '../icons/RightArrow';
 export default function HeroSection() {
     return (
         <>
-            <div className='-mx-10'>
+            <div className='lg:-mx-10 mx-auto'>
                 <Swiper
                     pagination={{
                         dynamicBullets: true,
                     }}
                     modules={[Pagination]}
-                    className="mySwiper mb-40"
+                    className="mySwiper mb-5 md:mb-20 lg:mb-40"
                     loop={true}
                 >
                     {slides.map((slide, index) => (
                         <SwiperSlide key={index}>
-                            <div className='flex flex-row p-24 items-center'>
+                            <div className='flex flex-col-reverse lg:flex-row p-5 md:p-16 lg:p-24 items-center'>
                                 <div className='flex flex-col items-start text-left my-5'>
                                     <h6 className='text-base my-2'>{slide.heading}</h6>
-                                    <h4 className='text-7xl font-semibold text-gray-900 mb-7'>{slide.title}</h4>
-                                    <h5 className='text-3xl mb-3'>{slide.offer} <span className='text-orange font-semibold'>{slide.percentage}</span></h5>
+                                    <h4 className='text-xl lg:text-7xl font-semibold text-gray-900 mb-7'>{slide.title}</h4>
+                                    <h5 className='text-2xl lg:text-3xl mb-3'>{slide.offer} <span className='text-orange font-semibold'>{slide.percentage}</span></h5>
 
                                     <p className='text-sm text-gray-600 mb-8'>{slide.description}</p>
                                     <button className='btn bg-base rounded-full hover:text-gray-900 text-white'>Shop Now 
@@ -47,7 +47,7 @@ export default function HeroSection() {
                     ))}
                 </Swiper>
             </div>
-            <div className='flex flex-row justify-between p-10 shadow-xl absolute container z-10 bg-white rounded-lg -bottom-20'>
+            <div className='flex flex-col lg:flex-row justify-between mb-5 p-5 md:p-10 shadow-xl md:absolute container z-10 bg-white rounded-lg md:-bottom-14 lg:-bottom-20'>
                 <div className='flex flex-row items-center gap-4'>
                     <Image
                         src="/delivery.svg"
