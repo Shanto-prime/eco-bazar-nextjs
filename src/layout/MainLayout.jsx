@@ -1,12 +1,14 @@
+import Nav from "@/components/Nav";
 import React from "react";
 
-const RootLayout = ({children}) => {
+const MainLayout = ({children}) => {
 
     return (
         <>
-            
+            <Nav/>
+            {children}
         </>
     );
 };
 
-export default RootLayout;
+export default MainLayout;

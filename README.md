@@ -57,3 +57,6 @@ This project utilizes modern and scalable technologies:
 3. Included placeholders (e.g., GitHub repo URL) for missing details—replace with actual links as needed. 
 
 Let me know if you need further refinements!
+### Deploy to Netlify:
+
+follow this [blog post](https://dev.to/mayorstacks/deploying-nextjs-13-apps-to-netlify-switching-out-an-existing-react-app-jep).

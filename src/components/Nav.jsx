@@ -8,7 +8,7 @@ const Nav = () => {
 
     return (
         <>
-            <div className="flex flex-col mx-auto justify-center px-4">
+            <div className="flex flex-col mx-auto justify-center px-4 overflow-hidden">
                 <div className="container flex justify-between py-4 mx-auto">
                     <p className="text-[#666666] poppins text-[13px]">Free shipping on all orders over $50</p>
                     <div className="text-[#666666] md:flex flex-row gap-4 poppins hidden">
