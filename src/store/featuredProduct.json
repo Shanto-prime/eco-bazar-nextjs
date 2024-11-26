@@ -4,7 +4,12 @@
       "image": "/apple.png",
       "name": "Green Apple",
       "price": 14.99,
-      "rating": 5
+      "rating": 5,
+      "discount": {
+        "percentage": 20,
+        "amount": 2.99,
+        "price_after_discount": 12.00
+      }
     },
     {
       "id": 2,
@@ -18,7 +23,12 @@
       "image": "/lettuce.png",
       "name": "Green Lettuce",
       "price": 12.49,
-      "rating": 4
+      "rating": 4,
+      "discount": {
+        "percentage": 30,
+        "amount": 3.75,
+        "price_after_discount": 8.74
+      }
     },
     {
       "id": 4,
@@ -32,7 +42,12 @@
       "image": "/corn.png",
       "name": "Corn",
       "price": 12.49,
-      "rating": 2
+      "rating": 2,
+      "discount": {
+        "percentage": 10,
+        "amount": 1.25,
+        "price_after_discount": 11.24
+      }
     }
   ]
   
