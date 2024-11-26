@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "image": "/vegetableCategory.png",
+        "name": "Vegetables"
+    },
+    {
+        "id": "2",
+        "image": "/fruitsCategory.png",
+        "name": "Fresh Fruit"
+    },
+    {
+        "id": "3",
+        "image": "fishCategory.png",
+        "name": "River Fish"
+    },
+    {
+        "id": "4",
+        "image": "meatCategory.png",
+        "name": "Meat"
+    },
+    {
+        "id": "5",
+        "image": "soft-drinkCategory.png",
+        "name": "Water and Drinks"
+    },
+    {
+        "id": "6",
+        "image": "snacksCategory.png",
+        "name": "Snacks"
+    }
+]

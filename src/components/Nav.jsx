@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import 'boxicons'
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const closeSidebar = () => setIsOpen(false);
 
     return (
         <>
@@ -102,7 +103,7 @@ const Nav = () => {
 
                     {/* Navbar for small devices */}
                     <div className="lg:hidden flex items-center justify-between">
-                        <label onClick={() => setIsOpen(!isOpen)}>
+                        <label onClick={() => setIsOpen(true)}>
                             <svg
                                 className="swap-off fill-current"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -115,37 +116,40 @@ const Nav = () => {
                         </label>
                     </div>
 
-                    {/* Slide-out menu */}
+                    {/* Sidebar and overlay */}
                     {isOpen && (
-
-                        <div className="fixed z-20 top-0 left-0 w-64 h-4/5 bg-gray-800 text-white p-4">
-                            <ul>
-                                <li className="mb-4">
-                                    <div className="cursor-pointer">
-                                        Home
-                                        <ul className="pl-4 mt-2">
-                                            <li>Submenu 1</li>
-                                            <li>Submenu 2</li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li className="mb-4">
-                                    <div className="cursor-pointer">
-                                        Shop
-                                        <ul className="pl-4 mt-2">
-                                            <li>Submenu 1</li>
-                                            <li>Submenu 2</li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li className="mb-4">Pages</li>
-                                <li className="mb-4">Blog</li>
-                                <li className="mb-4">About Us</li>
-                                <li>Contact Us</li>
-                            </ul>
-                            <button className='bg-greenGray-600 rounded-full px-5 py-3 absolute  z-50 top-2 right-2' onClick={() => setIsOpen(!isOpen)}>X</button>
-                        </div>
-
+                        <>
+                            <div
+                                className="fixed inset-0 z-10 bg-black bg-opacity-50"
+                                onClick={closeSidebar}
+                            ></div>
+                            <div className="fixed top-0 left-0 z-20 max-w-72 h-full bg-gray-800 text-white p-8">
+                                <ul>
+                                    <li className="mb-4">
+                                        <div className="cursor-pointer">
+                                            Home
+                                            <ul className="pl-4 mt-2">
+                                                <li>Submenu 1</li>
+                                                <li>Submenu 2</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li className="mb-4">
+                                        <div className="cursor-pointer">
+                                            Shop
+                                            <ul className="pl-4 mt-2">
+                                                <li>Submenu 1</li>
+                                                <li>Submenu 2</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li className="mb-4">Pages</li>
+                                    <li className="mb-4">Blog</li>
+                                    <li className="mb-4">About Us</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                        </>
                     )}
                 </div>
             </nav>

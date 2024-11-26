@@ -7,7 +7,7 @@
       "rating": 5,
       "discount": {
         "percentage": 20,
-        "amount": 2.99,
+        "amount": 2.99, 
         "price_after_discount": 12.00
       }
     },

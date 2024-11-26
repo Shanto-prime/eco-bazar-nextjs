@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "pg": "node productGenerator.mjs",
     "devt": "next dev --turbopack",
     "build": "next build",
     "start": "next start",

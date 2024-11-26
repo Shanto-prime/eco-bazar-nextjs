@@ -1,0 +1,23 @@
+[
+    {
+      "image": "/apple.png",
+      "name": "Green Apple"
+    },
+    {
+      "image": "/cabbage.png",
+      "name": "Chinese Cabbage"
+    },
+    {
+      "image": "/lettuce.png",
+      "name": "Green Lettuce"
+    },
+    {
+      "image": "/chili.png",
+      "name": "Green Chili"
+    },
+    {
+      "image": "/corn.png",
+      "name": "Corn"
+    }
+  ]
+  

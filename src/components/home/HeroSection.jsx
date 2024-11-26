@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
-import slides from '../../../src/store/slide.json';
+import slides from '@/data/slide.json';
 import RightArrow from '../icons/RightArrow';
 
 

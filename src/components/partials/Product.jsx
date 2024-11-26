@@ -20,9 +20,9 @@ const Product = ({ product }) => {
                     <div className="">
                         <h3 className="text-sm text-gray-800">{product.name}</h3>
                         {product.discount?
-                        ( <p className="font-medium text-gray-900">$<span>{product.discount.price_after_discount.toFixed(2)}</span>  $<span className="line-through font-normal text-gray-500">{product.price.toFixed(2)}</span></p>
+                        ( <p className="font-medium text-gray-900">$<span>{product.discount.discountedPrice}</span>  $<span className="line-through font-normal text-gray-500">{product.price}</span></p>
                         ):(
-                        <p className="font-medium text-gray-900">$ <span>{product.price.toFixed(2)}</span></p>
+                        <p className="font-medium text-gray-900">$ <span>{product.price}</span></p>
                         )}
                         
                         <div className="flex flex-row">

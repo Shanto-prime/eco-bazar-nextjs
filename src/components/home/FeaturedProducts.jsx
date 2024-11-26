@@ -1,9 +1,15 @@
 "use client";
 import SectionHeader from "../partials/SectionHeader";
-import featuredProduct from "../../../src/store/featuredProduct.json"
+// import featuredProduct from "@/data/featuredProduct.json"
 import Product from "../partials/Product";
+import {getFeaturedProducts} from "@/utils/apiCaller"
+import { useEffect, useState } from "react";
 
 export default function FeaturedProducts() {
+    const [featuredProduct, setFeaturedProduct] = useState([]);
+    useEffect(()=>{
+        setFeaturedProduct(getFeaturedProducts())
+    },[])
     return (
         <>
         <div className="container mx-auto relative">
