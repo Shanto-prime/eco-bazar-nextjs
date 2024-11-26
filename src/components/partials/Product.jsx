@@ -2,6 +2,8 @@ import Image from "next/image";
 import ShoppingBag from "../icons/ShoppingBag";
 import Star from "../icons/Star";
 import StarBase from "../icons/StarBase";
+import Eye from "../icons/Eye";
+import Wishlist from "../icons/Wishlist";
 
 const Product = ({ product }) => {
 
@@ -14,7 +16,7 @@ const Product = ({ product }) => {
                     width={246}
                     height={246}
                 />
-                <div className="p-4 flex justify-between">
+                <div className="py-4 ps-4 flex justify-between">
                     <div className="">
                         <h3 className="text-sm text-gray-800">{product.name}</h3>
                         {product.discount?
@@ -38,10 +40,10 @@ const Product = ({ product }) => {
                 </div>
                 <div className="absolute top-4 right-4 flex flex-col gap-2">
                     <button className="w-10 h-10 rounded-full bg-white hover:bg-base text-gray-900 hover:text-white flex justify-center items-center transition-all duration-300">
-                        <ShoppingBag w={15} h={15} />
+                        <Wishlist w={15} h={15} />
                     </button>
                     <button className="w-10 h-10 rounded-full bg-white hover:bg-base text-gray-900 hover:text-white flex justify-center items-center transition-all duration-300">
-                        <ShoppingBag w={15} h={15} />
+                        <Eye w={15} h={15} />
                     </button>
                 </div>
                 {product.discount?(

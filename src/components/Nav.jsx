@@ -40,14 +40,14 @@ const Nav = () => {
                     <h1 className='poppins text-2xl font-medium text-[#002603]'>Ecobazar</h1>
                 </div>
                 <div className='w-full md:w-96 my-5'>
-                    <label className="input w-full md:w-[420px] lg:w-[500px] flex items-center justify-between gap-2 pl-5 pr-0">
+                    <label className="input w-full md:w-[380px] lg:w-[500px] flex items-center justify-between gap-2 pl-5 pr-0">
                         <box-icon name='search' animation='flashing' ></box-icon>
                         <input type="text" className="w-full" placeholder="Search Here" />
                         <button className='bg-[#00B307] py-3 px-5 rounded-lg rounded-tl-none rounded-bl-none'>Search</button>
                     </label>
                 </div>
-                <div className='flex items-center justify-between gap-3 md:w-56'>
-                    <div className='flex items-center gap-3'>
+                <div className='flex items-center lg:justify-between lg:gap-3 md:w-40'>
+                    <div className='flex items-center lg:gap-3'>
                         <box-icon name='heart' ></box-icon>
                         <hr className='border-[#CCCCCC] border-r-2 h-1/2 ' />
                         <box-icon name='shopping-bag' ></box-icon>

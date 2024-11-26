@@ -10,7 +10,13 @@ export default function DownArrow({ attributes }) {
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink">
                 <g clipPath="url(#clip33_14149)">
-                    <path id="Vector" d="M3.33 5.66L8 10.33L12.66 5.66" stroke="currentColor" strokeOpacity="1.000000" strokeWidth="1.500000" strokeLinejoin="round" strokeLinecap="round" />
+                    <path id="Vector" 
+                    d="M3.33 5.66L8 10.33L12.66 5.66" 
+                    stroke="currentColor" 
+                    strokeOpacity="1.000000" 
+                    strokeWidth="1.500000" 
+                    strokeLinejoin="round" 
+                    strokeLinecap="round" />
                 </g>
             </svg>
         </>

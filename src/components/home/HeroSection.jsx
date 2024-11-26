@@ -19,7 +19,7 @@ export default function HeroSection() {
                             dynamicBullets: true,
                         }}
                         modules={[Pagination]}
-                        className="mySwiper mb-5 md:mb-20 lg:mb-40"
+                        className="mySwiper mb-5 md:mb-10 lg:mb-40"
                         loop={true}
                     >
                         {slides.map((slide, index) => (
@@ -48,9 +48,9 @@ export default function HeroSection() {
                         ))}
                     </Swiper>
                 </div>
-                <div className='md:absolute md:-bottom-14 lg:-bottom-20 z-10 w-full px-10 box-border flex justify-center'>
-                    <div className='flex flex-col lg:flex-row justify-between gap-12 mb-5 p-5 md:p-10 shadow-xl  bg-white rounded-lg '>
-                        <div className='flex flex-row items-center gap-4'>
+                <div className='lg:absolute lg:top-[550px] z-10 w-full px-10 box-border flex justify-center'>
+                    <div className='grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row justify-between gap-12 mb-5 p-5 md:p-10 shadow-xl lg:py- bg-white rounded-lg '>
+                        <div className='flex flex-row md items-center gap-4'>
                             <Image
                                 src="/delivery.svg"
                                 alt="delivery van"
