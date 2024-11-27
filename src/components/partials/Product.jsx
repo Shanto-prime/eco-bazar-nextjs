@@ -1,9 +1,8 @@
 import Image from "next/image";
 import ShoppingBag from "../icons/ShoppingBag";
-import Star from "../icons/Star";
-import StarBase from "../icons/StarBase";
 import Eye from "../icons/Eye";
 import Wishlist from "../icons/Wishlist";
+import Rating from "./Rating";
 
 const Product = ({ product }) => {
 
@@ -26,12 +25,7 @@ const Product = ({ product }) => {
                         )}
                         
                         <div className="flex flex-row">
-                            {Array.from({ length: product.rating }).map((_, index) => (
-                                <Star key={index} />
-                            ))}
-                            {Array.from({ length: 5 - product.rating }).map((_, index) => (
-                                <StarBase key={index} />
-                            ))}
+                            <Rating rating={product.rating}/>
                         </div>
                     </div>
                     <button className="w-10 h-10 rounded-full bg-white hover:bg-base text-gray-900 hover:text-white flex justify-center items-center transition-all duration-300">

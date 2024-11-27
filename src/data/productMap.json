@@ -18,6 +18,30 @@
     {
       "image": "/corn.png",
       "name": "Corn"
+    },
+    {
+      "image": "/cauliflower.png",
+      "name": "Cauliflower"
+    },
+    {
+      "image": "/eggplant.png",
+      "name": "Eggplant"
+    },
+    {
+      "image": "/malta.png",
+      "name": "Malta"
+    },
+    {
+      "image": "/potato.png",
+      "name": "Potato"
+    },
+    {
+      "image": "/okra.png",
+      "name": "Okra"
+    },
+    {
+      "image": "/tomato.png",
+      "name": "Tomato"
     }
   ]
   

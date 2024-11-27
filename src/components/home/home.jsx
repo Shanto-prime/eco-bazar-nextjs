@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <>
             <MainLayout>
-                <HeroSection />
+                {/* <HeroSection /> */}
                 <FeaturedProducts />
                 <Deals />
                 <div className="bg-[#2093ff] py-5 px-4 container mx-auto">

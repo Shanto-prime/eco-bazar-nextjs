@@ -28,10 +28,23 @@ const Nav = () => {
                         </div>
                     </div>
                 </div>
-                <hr className='border-b-2 w-full mt-3 border-gray-200'/>
+                <hr className='border-b-2 w-full mt-3 border-gray-200' />
             </div>
             <div className="container md:flex justify-between md:py-7 py-3 mx-auto px-4">
-                <div className='flex flex-row gap-2 items-center'>
+                <div className='flex flex-row relative gap-2 items-center justify-center'>
+                    <div className="lg:hidden absolute left-0 flex items-center justify-between">
+                        <label onClick={() => setIsOpen(true)}>
+                            <svg
+                                className="swap-off fill-current"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="32"
+                                height="32"
+                                viewBox="0 0 512 512"
+                            >
+                                <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                            </svg>
+                        </label>
+                    </div>
                     <Image
                         src="/logo.jpeg"
                         alt="eco"
@@ -40,20 +53,18 @@ const Nav = () => {
                     />
                     <h1 className='poppins text-2xl font-medium text-[#002603]'>Ecobazar</h1>
                 </div>
-                <div className='w-full md:w-96 my-5'>
-                    <label className="input w-full md:w-[380px] lg:w-[500px] flex items-center justify-between gap-2 pl-5 pr-0">
+                <div className='my-5 border-2 rounded-lg'>
+                    <label className="input  md:w-[320px] lg:w-[500px] flex items-center justify-between gap-2 pl-5 pr-0">
                         <box-icon name='search' animation='flashing' ></box-icon>
                         <input type="text" className="w-full" placeholder="Search Here" />
                         <button className='bg-[#00B307] py-3 px-5 rounded-lg rounded-tl-none rounded-bl-none'>Search</button>
                     </label>
                 </div>
-                <div className='flex items-center lg:justify-between lg:gap-3 md:w-40'>
-                    <div className='flex items-center lg:gap-3'>
-                        <box-icon name='heart' ></box-icon>
-                        <hr className='border-[#CCCCCC] border-r-2 h-1/2 ' />
-                        <box-icon name='shopping-bag' ></box-icon>
-                    </div>
-                    <div className='poppins'>
+                <div className='flex items-center lg:justify-between gap-3 md:w-48 justify-center'>
+                    <box-icon name='heart' size="md"></box-icon>
+                    <hr className='border-[#CCCCCC] border-r-2 h-7 ' />
+                    <box-icon name='shopping-bag' size="md"></box-icon>
+                    <div className='poppins w-24'>
                         <p className='text-xs text-[#4D4D4D]'>shopping cart:</p>
                         <p className='text-[#1A1A1A] font-medium text-sm'>$57.00</p>
                     </div>
@@ -102,19 +113,7 @@ const Nav = () => {
                     </div>
 
                     {/* Navbar for small devices */}
-                    <div className="lg:hidden flex items-center justify-between">
-                        <label onClick={() => setIsOpen(true)}>
-                            <svg
-                                className="swap-off fill-current"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="32"
-                                height="32"
-                                viewBox="0 0 512 512"
-                            >
-                                <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-                            </svg>
-                        </label>
-                    </div>
+
 
                     {/* Sidebar and overlay */}
                     {isOpen && (
