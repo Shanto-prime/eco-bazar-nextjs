@@ -11,22 +11,22 @@
     },
     {
         "id": "3",
-        "image": "fishCategory.png",
+        "image": "/fishCategory.png",
         "name": "River Fish"
     },
     {
         "id": "4",
-        "image": "meatCategory.png",
+        "image": "/meatCategory.png",
         "name": "Meat"
     },
     {
         "id": "5",
-        "image": "soft-drinkCategory.png",
+        "image": "/soft-drinkCategory.png",
         "name": "Water and Drinks"
     },
     {
         "id": "6",
-        "image": "snacksCategory.png",
+        "image": "/snacksCategory.png",
         "name": "Snacks"
     }
 ]
