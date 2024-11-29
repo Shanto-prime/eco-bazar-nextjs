@@ -19,7 +19,7 @@ export default function HeroSection() {
                             dynamicBullets: true,
                         }}
                         modules={[Pagination]}
-                        className="mySwiper mb-5 md:mb-10 lg:mb-40"
+                        className="hero-swiper mb-5 md:mb-10 lg:mb-40"
                         loop={true}
                     >
                         {slides.map((slide, index) => (

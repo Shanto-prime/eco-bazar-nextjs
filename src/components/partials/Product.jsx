@@ -8,7 +8,7 @@ const Product = ({ product }) => {
 
     return (
         <>
-            <div className=" border-2 rounded-lg border-gray-200 transition-all duration-700 hover:shadow-green-200 hover:shadow-md hover:border-base-hard relative p-4" key={product.id}>
+            <div className=" !bg-white border-2 rounded-lg border-gray-200 transition-all duration-700 hover:shadow-green-200 hover:shadow-md hover:border-base-hard relative p-4" key={product.id}>
                 <Image
                     src={product.image}
                     alt={product.name}

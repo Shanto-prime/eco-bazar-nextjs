@@ -24,10 +24,10 @@ export default function CategoryOffer({ upto, isUpto, countDown, isCount, title,
 
     return (
         <div className=''>
-            <div className="bg-cover bg-bottom w-[340px] h md:w-80 h-[480px] lg:w-[424px] lg:h-[536px]" style={{ backgroundImage: `url(${bgImg})` }}>
-                <div className="flex flex-col justify-center items-center mb-6">
-                    <p className={`mt-12 uppercase font-medium text-xs text-center ${textColor}`}>{subTitle}</p>
-                    <h5 className={`mt-2 mb-4 font-semibold !text-[32px] text-center ${textColor}`}>{title}</h5>
+            <div className="bg-cover bg-bottom w-[320px] lg:w-80 xl:w-[400px] 2xl:w-[496px] max-w-[496px] h-[510px] lg:h-[600px] xl:h[690px] 2xl:h-[780px]" style={{ backgroundImage: `url(${bgImg})` }}>
+                <div className="flex flex-col basis-auto justify-center items-center mb-6">
+                    <p className={`mt-12 uppercase font-medium text-xs lg:text-lg xl:text-xl 2xl:text-2xl text-center ${textColor}`}>{subTitle}</p>
+                    <h5 className={`mt-2 mb-4 font-semibold text-[32px] lg:text-[36px] xl:text-[42px] 2xl:text-[46px] text-center ${textColor}`}>{title}</h5>
                     <div className={isStarting}>
                         <p className='text-lg text-white'>Started at <span className='text-orange text-xl font-semibold'>${starting}</span></p>
                     </div>
@@ -37,28 +37,28 @@ export default function CategoryOffer({ upto, isUpto, countDown, isCount, title,
                     <div className={isCount}>
                         <div className="grid grid-flow-col gap-5 text-center auto-cols-max text-white">
                             <div className="flex flex-col uppercase">
-                                <span className="countdown text-2xl lg:text-5xl">
+                                <span className="countdown text-xl lg:text-2xl xl:text-4xl">
                                     <span style={{ "--value": days }}></span>
                                 </span>
                                 days
                             </div>
-                            <p className='text-2xl lg:text-5xl'>:</p>
+                            <p className='text-xl lg:text-2xl xl:text-4xl'>:</p>
                             <div className="flex flex-col uppercase">
-                                <span className="countdown text-2xl lg:text-5xl">
+                                <span className="countdown text-xl lg:text-2xl xl:text-4xl">
                                     <span style={{ "--value": hours }}></span>
                                 </span>
                                 hours
                             </div>
-                            <p className='text-2xl lg:text-5xl'>:</p>
+                            <p className='text-xl lg:text-2xl xl:text-4xl'>:</p>
                             <div className="flex flex-col uppercase">
-                                <span className="countdown text-2xl lg:text-5xl">
+                                <span className="countdown text-xl lg:text-2xl xl:text-4xl">
                                     <span style={{ "--value": minutes }}></span>
                                 </span>
                                 min
                             </div>
-                            <p className='text-2xl lg:text-5xl'>:</p>
+                            <p className='text-xl lg:text-2xl xl:text-4xl'>:</p>
                             <div className="flex flex-col uppercase">
-                                <span className="countdown text-2xl lg:text-5xl">
+                                <span className="countdown text-xl lg:text-2xl xl:text-4xl">
                                     <span style={{ "--value": seconds }}></span>
                                 </span>
                                 sec

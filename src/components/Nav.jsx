@@ -32,7 +32,7 @@ const Nav = () => {
             </div>
             <div className="container md:flex justify-between md:py-7 py-3 mx-auto px-4">
                 <div className='flex flex-row relative gap-2 items-center justify-center'>
-                    <div className="lg:hidden absolute left-0 flex items-center justify-between">
+                    <div className="lg:hidden absolute left-0 md:-top-2 flex items-center justify-between">
                         <label onClick={() => setIsOpen(true)}>
                             <svg
                                 className="swap-off fill-current"
@@ -57,7 +57,7 @@ const Nav = () => {
                     <label className="input  md:w-[320px] lg:w-[500px] flex items-center justify-between gap-2 pl-5 pr-0">
                         <box-icon name='search' animation='flashing' ></box-icon>
                         <input type="text" className="w-full" placeholder="Search Here" />
-                        <button className='bg-[#00B307] py-3 px-5 rounded-lg rounded-tl-none rounded-bl-none'>Search</button>
+                        <button className='bg-[#00B307] py-3 px-5 rounded-lg rounded-tl-none rounded-bl-none text-white'>Search</button>
                     </label>
                 </div>
                 <div className='flex items-center lg:justify-between gap-3 md:w-48 justify-center'>

@@ -9,6 +9,7 @@ import Nav from "@/components/Nav";
 import MainLayout from "@/layout/MainLayout";
 import TopCategory from "./TopCategory";
 import Offers from "./Offers";
+import NewProduct from "./NewProduct";
 
 export default function Home() {
     return (
@@ -19,6 +20,7 @@ export default function Home() {
                 <Deals />
                 <TopCategory/>
                 <Offers/>
+                <NewProduct/>
                 <div className="bg-[#2093ff] mt-5 py-5 px-4 container mx-auto">
                     <p>Offers</p>
                     <p>Newest Products</p>

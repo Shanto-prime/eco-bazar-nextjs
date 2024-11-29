@@ -7,7 +7,6 @@ import SectionHeader from "../partials/SectionHeader";
 import categories from "@/data/categories.json";
 import products from "@/data/products.json";
 import Image from 'next/image';
-import CategoryOffer from '../partials/CategoryOffer';
 
 export default function TopCategory() {
     const getCategoryProductCount = (categoryId) => {

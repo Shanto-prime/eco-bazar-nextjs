@@ -12,3 +12,6 @@ export function getBestSellerDeals(length = 3) {
 export function getTopRatedDeals(length = 3) {
     return products.filter((product) => product.isTopRated).slice(0, length);
 }
+export function getNewProducts(length = 10) {
+    return products.slice( (-1) * length);
+}
