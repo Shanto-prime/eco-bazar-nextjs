@@ -3,7 +3,7 @@ import CategoryOffer from "../partials/CategoryOffer";
 export default function Offers() {
     return (
         <>
-            <div className="container mx-auto my-5 bg-">
+            <div className="container mx-auto my-5 px-4 md:px-0">
                 <div className="flex flex-col lg:flex-row items-center md:justify-between gap-5">
                     <CategoryOffer 
                     subTitle="Best deals"

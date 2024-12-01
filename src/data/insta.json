@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "/instagram-1.png",
+        "name": "Green Apple"
+    },
+    {
+        "id": 2,
+        "image": "/instagram-2.png",
+        "name": "Red Apple"
+    },
+    {
+        "id": 3,
+        "image": "/instagram-3.png",
+        "name": "Yellow Apple"
+    },
+    {
+        "id": 4,
+        "image": "/instagram-4.png",
+        "name": "Orange"
+    },
+    {
+        "id": 5,
+        "image": "/instagram-5.png",
+        "name": "Banana"
+    },
+    {
+        "id": 6,
+        "image": "/instagram-6.png",
+        "name": "Grapes"
+    }
+]

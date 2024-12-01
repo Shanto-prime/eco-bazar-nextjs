@@ -3,7 +3,6 @@
 import { getHotDeals, getBestSellerDeals, getTopRatedDeals } from "@/utils/apiCaller";
 import { useEffect, useState } from "react";
 import Deal from "../partials/Deal";
-import Image from "next/image";
 import BtnDefault from "../partials/buttons/BtnDefault";
 
 
@@ -20,7 +19,7 @@ export default function Deals() {
 
     return (
         <>
-            <div className="container mx-auto relative">
+            <div className="container mx-auto relative px-4 md:px-0">
                 <div className="my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto px-4 lg:px-0 gap-6">
                     <div className="flex flex-col gap-4">
                         <h2 className="text-xl font-medium">Hot Deals</h2>

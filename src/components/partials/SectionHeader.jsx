@@ -1,6 +1,6 @@
-export default function SectionHeader({ title, styleClass = "justify-center", align = "text-center" }) {
+export default function SectionHeader({ title, styleClass = "justify-center", align = "center" }) {
     return (
-        <div className={align}>
+        <div className={`text-${align}`}>
             <h1 className="font-semibold text-4xl mb-4">{title}</h1>
             <div className={`flex ${styleClass}  gap-1 mt-2 mb-5`}>
                 <span className="w-3 h-1 bg-base-light"></span>

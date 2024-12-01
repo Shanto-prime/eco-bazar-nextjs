@@ -14,7 +14,7 @@ export default function TopCategory() {
     };
 
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-4 md:px-0'>
             <SectionHeader title="Top Category" />
             <div className="">
                 <Swiper

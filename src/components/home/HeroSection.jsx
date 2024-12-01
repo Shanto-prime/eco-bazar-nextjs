@@ -31,7 +31,7 @@ export default function HeroSection() {
                                         <h5 className='text-2xl lg:text-3xl mb-3'>{slide.offer} <span className='text-orange font-semibold'>{slide.percentage}</span></h5>
 
                                         <p className='text-sm text-gray-600 mb-8'>{slide.description}</p>
-                                        <button className='btn bg-base rounded-full hover:text-gray-900 text-white'>Shop Now
+                                        <button className='btn bg-base rounded-full hover:text-gray-900 text-white hover:bg-gray-300'>Shop Now
                                             <RightArrow />
                                         </button>
                                     </div>
