@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Keyboard, Scrollbar, Pagination } from 'swiper/modules';
+import { Keyboard, Pagination } from 'swiper/modules';
 import { getReviews } from "@/utils/apiCaller";
 import SectionHeader from "../partials/SectionHeader";
 import SwiperCore, { Navigation } from "swiper";
@@ -26,14 +26,14 @@ export default function UserReview() {
                         <SectionHeader
                             align="left"
                             styleClass="justify-start"
-                            title="Clint Testimonial"
+                            title="Client Testimonial"
                         />
                         <div className="flex flex-row justify-end">
                             <div className="btn hover:bg-base hover:text-white border-2 transition-all duration-700 border-gray-200 bg-white rounded-full" onClick={() => swiperRef.current.swiper.slidePrev()} ><RightArrow isLeft={true} /></div>
                             <div className="btn hover:bg-base hover:text-white border-2 transition-all duration-700 border-gray-200 bg-white rounded-full" onClick={() => swiperRef.current.swiper.slideNext()} ><RightArrow /></div>
                         </div >
                     </div>
-                    <div className="flex flex-col lg:flex-row gap-5 justify-center ">
+                    <div className="">
                         <Swiper
                             className="review"
                             ref={swiperRef}
@@ -45,15 +45,16 @@ export default function UserReview() {
                                 clickable: true,
                             }}
                             modules={[Keyboard, Pagination]}
+                            spaceBetween={30}
                             breakpoints={{
                                 425: { slidesPerView: 1, slidesPerGroup: 1 },
-                                768: { slidesPerView: 2, slidesPerGroup: 2 },
-                                1024: { slidesPerView: 3, slidesPerGroup: 3 },
+                                768: { slidesPerView: 2, slidesPerGroup: 1 },
+                                1024: { slidesPerView: 3, slidesPerGroup: 1 },
                             }}
                         >
                             {reviews.map((review) => (
-                                <SwiperSlide key={review.name} className="review">
-                                    <div className="p-6 bg-white rounded-lg shadow-xl mb-10 h-full">
+                                <SwiperSlide key={review.id} className="review">
+                                    <div className="p-6 bg-white rounded-lg shadow-xl mb-10 min-h-[300px] max-h-[300px] flex flex-col justify-between">
                                         <Image
                                             src="/review.svg"
                                             alt="quote"

@@ -52,6 +52,6 @@
     object-fit: cover;
 }
 
-.review .swiper-pagination{
+.swiper-pagination{
     bottom: 5px !important;
 }

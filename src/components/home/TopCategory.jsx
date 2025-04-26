@@ -28,8 +28,6 @@ export default function TopCategory() {
                     }}
                     navigation
                     scrollbar={{ draggable: true }}
-                    onSlideChange={() => console.log("slide changed")}
-                    onSwiper={(swiper) => console.log(swiper)}
                 >
                     {categories.map((category, id) => {
                         const productCount = getCategoryProductCount(category.id);
