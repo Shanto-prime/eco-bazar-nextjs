@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "name": "Supper Cauliflower",
+        "image": "/cauliflower.png",
+        "price": "262.32",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "4.5",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 63,
+            "discountedAmount": "165.26",
+            "discountedPrice": "97.06"
+        },
+        "tags": [
+            "Low fat",
+            "Meat",
+            "Kid foods"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Green Apple",
+        "image": "/apple.png",
+        "price": "256.67",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "4.0",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Breakfast",
+            "Low fat"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 3,
+        "name": "New Eggplant",
+        "image": "/eggplant.png",
+        "price": "34.40",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Fruit",
+            "Vitamins",
+            "Meat"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 4,
+        "name": "New Corn",
+        "image": "/corn.png",
+        "price": "650.08",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "1.2",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 17,
+            "discountedAmount": "110.51",
+            "discountedPrice": "539.57"
+        },
+        "tags": [
+            "Snacks",
+            "Dinner",
+            "Bread"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Blue Green Chili",
+        "image": "/chili.png",
+        "price": "709.79",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "2.7",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 2,
+            "discountedAmount": "14.20",
+            "discountedPrice": "695.59"
+        },
+        "tags": [
+            "Snacks",
+            "Fruit",
+            "Healthy"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Blue Chinese Cabbage",
+        "image": "/cabbage.png",
+        "price": "195.84",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "1.1",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 27,
+            "discountedAmount": "52.88",
+            "discountedPrice": "142.96"
+        },
+        "tags": [
+            "Kid foods",
+            "Vegetarian",
+            "Fruit"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Blue Malta",
+        "image": "/malta.png",
+        "price": "911.37",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "2.7",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Kid foods",
+            "Tiffin",
+            "Vegetarian"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Green Chili",
+        "image": "/chili.png",
+        "price": "90.12",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "2.5",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 27,
+            "discountedAmount": "24.33",
+            "discountedPrice": "65.79"
+        },
+        "tags": [
+            "Kid foods",
+            "Bread",
+            "Meat"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Supper Eggplant",
+        "image": "/eggplant.png",
+        "price": "371.03",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Bread",
+            "Breakfast",
+            "Low fat"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Malta",
+        "image": "/malta.png",
+        "price": "213.68",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Breakfast",
+            "Vegetarian",
+            "Low fat"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Blue Potato",
+        "image": "/potato.png",
+        "price": "340.47",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "3.8",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 49,
+            "discountedAmount": "166.83",
+            "discountedPrice": "173.64"
+        },
+        "tags": [
+            "Kid foods",
+            "Vegetarian",
+            "Tiffin"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 12,
+        "name": "New Malta",
+        "image": "/malta.png",
+        "price": "214.40",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "3.6",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Fruit",
+            "Dinner"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 13,
+        "name": "New Potato",
+        "image": "/potato.png",
+        "price": "779.22",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "2.2",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 60,
+            "discountedAmount": "467.53",
+            "discountedPrice": "311.69"
+        },
+        "tags": [
+            "Vegetarian",
+            "Low fat",
+            "Snacks"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Red Chinese Cabbage",
+        "image": "/cabbage.png",
+        "price": "456.17",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "4.2",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 55,
+            "discountedAmount": "250.89",
+            "discountedPrice": "205.28"
+        },
+        "tags": [
+            "Vitamins",
+            "Breakfast",
+            "Dinner"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Supper Malta",
+        "image": "/malta.png",
+        "price": "104.54",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "4.7",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Vegetarian",
+            "Tiffin",
+            "Snacks"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Green Green Chili",
+        "image": "/chili.png",
+        "price": "23.19",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "2.4",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 12,
+            "discountedAmount": "2.78",
+            "discountedPrice": "20.41"
+        },
+        "tags": [
+            "Bread",
+            "Vegetarian",
+            "Breakfast"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Supper Green Lettuce",
+        "image": "/lettuce.png",
+        "price": "123.47",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "4.6",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 27,
+            "discountedAmount": "33.34",
+            "discountedPrice": "90.13"
+        },
+        "tags": [
+            "Breakfast",
+            "Launch",
+            "Kid foods"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Blue Eggplant",
+        "image": "/eggplant.png",
+        "price": "345.70",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "3.4",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 16,
+            "discountedAmount": "55.31",
+            "discountedPrice": "290.39"
+        },
+        "tags": [
+            "Tiffin",
+            "Launch",
+            "Breakfast"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Best Chinese Cabbage",
+        "image": "/cabbage.png",
+        "price": "83.82",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "4.4",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 29,
+            "discountedAmount": "24.31",
+            "discountedPrice": "59.51"
+        },
+        "tags": [
+            "Breakfast",
+            "Snacks",
+            "Healthy"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Supper Green Chili",
+        "image": "/chili.png",
+        "price": "30.65",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "3.9",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Vitamins",
+            "Vegetarian",
+            "Meat"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Red Malta",
+        "image": "/malta.png",
+        "price": "563.98",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "2.5",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Low fat",
+            "Breakfast"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Supper Green Apple",
+        "image": "/apple.png",
+        "price": "261.36",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "3.1",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Low fat",
+            "Kid foods",
+            "Bread"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 23,
+        "name": "Best Malta",
+        "image": "/malta.png",
+        "price": "89.76",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Kid foods",
+            "Meat",
+            "Breakfast"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Green Potato",
+        "image": "/potato.png",
+        "price": "117.72",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "1.2",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Low fat",
+            "Kid foods",
+            "Breakfast"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Best Eggplant",
+        "image": "/eggplant.png",
+        "price": "62.58",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "1.9",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Kid foods",
+            "Bread"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Supper Potato",
+        "image": "/potato.png",
+        "price": "204.26",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "4.1",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Bread",
+            "Vitamins",
+            "Snacks"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Cauliflower",
+        "image": "/cauliflower.png",
+        "price": "42.09",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "3.6",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 44,
+            "discountedAmount": "18.52",
+            "discountedPrice": "23.57"
+        },
+        "tags": [
+            "Tiffin",
+            "Healthy",
+            "Fruit"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 28,
+        "name": "New Okra",
+        "image": "/okra.png",
+        "price": "40.33",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "1.0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 18,
+            "discountedAmount": "7.26",
+            "discountedPrice": "33.07"
+        },
+        "tags": [
+            "Meat",
+            "Bread",
+            "Breakfast"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 29,
+        "name": "Red Cauliflower",
+        "image": "/cauliflower.png",
+        "price": "7.01",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "3.3",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 36,
+            "discountedAmount": "2.52",
+            "discountedPrice": "4.49"
+        },
+        "tags": [
+            "Vitamins",
+            "Kid foods",
+            "Snacks"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 30,
+        "name": "Red Green Apple",
+        "image": "/apple.png",
+        "price": "195.66",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "1.6",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 40,
+            "discountedAmount": "78.26",
+            "discountedPrice": "117.40"
+        },
+        "tags": [
+            "Launch",
+            "Vegetarian",
+            "Healthy"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 31,
+        "name": "Red Green Chili",
+        "image": "/chili.png",
+        "price": "47.00",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "3.2",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Meat",
+            "Snacks",
+            "Healthy"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 32,
+        "name": "Red Potato",
+        "image": "/potato.png",
+        "price": "151.00",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "3.7",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Vegetarian",
+            "Low fat",
+            "Breakfast"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 33,
+        "name": "New Green Lettuce",
+        "image": "/lettuce.png",
+        "price": "163.20",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "3.6",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Tiffin",
+            "Snacks",
+            "Kid foods"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 34,
+        "name": "New Cauliflower",
+        "image": "/cauliflower.png",
+        "price": "100.13",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "1.6",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 42,
+            "discountedAmount": "42.05",
+            "discountedPrice": "58.08"
+        },
+        "tags": [
+            "Snacks",
+            "Kid foods",
+            "Dinner"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 35,
+        "name": "Red Green Lettuce",
+        "image": "/lettuce.png",
+        "price": "42.64",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "1.8",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Kid foods",
+            "Breakfast",
+            "Vegetarian"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 36,
+        "name": "New Chinese Cabbage",
+        "image": "/cabbage.png",
+        "price": "11.54",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 11,
+            "discountedAmount": "1.27",
+            "discountedPrice": "10.27"
+        },
+        "tags": [
+            "Low fat",
+            "Breakfast",
+            "Vitamins"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 37,
+        "name": "Blue Corn",
+        "image": "/corn.png",
+        "price": "478.46",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "4.9",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 25,
+            "discountedAmount": "119.61",
+            "discountedPrice": "358.85"
+        },
+        "tags": [
+            "Snacks",
+            "Dinner",
+            "Healthy"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 38,
+        "name": "Red Corn",
+        "image": "/corn.png",
+        "price": "549.94",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "4.4",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Bread",
+            "Snacks",
+            "Healthy"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 39,
+        "name": "Best Green Lettuce",
+        "image": "/lettuce.png",
+        "price": "157.04",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "3.7",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Vitamins",
+            "Kid foods",
+            "Vegetarian"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 40,
+        "name": "Red Tomato",
+        "image": "/tomato.png",
+        "price": "350.98",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 49,
+            "discountedAmount": "171.98",
+            "discountedPrice": "179.00"
+        },
+        "tags": [
+            "Fruit",
+            "Kid foods",
+            "Healthy"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 41,
+        "name": "Blue Okra",
+        "image": "/okra.png",
+        "price": "277.70",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "3.8",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 12,
+            "discountedAmount": "33.32",
+            "discountedPrice": "244.38"
+        },
+        "tags": [
+            "Vitamins",
+            "Bread",
+            "Breakfast"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 42,
+        "name": "Best Okra",
+        "image": "/okra.png",
+        "price": "169.66",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 16,
+            "discountedAmount": "27.15",
+            "discountedPrice": "142.51"
+        },
+        "tags": [
+            "Launch",
+            "Healthy",
+            "Low fat"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Red Eggplant",
+        "image": "/eggplant.png",
+        "price": "85.62",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "2.6",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 49,
+            "discountedAmount": "41.95",
+            "discountedPrice": "43.67"
+        },
+        "tags": [
+            "Healthy",
+            "Fruit",
+            "Low fat"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Best Cauliflower",
+        "image": "/cauliflower.png",
+        "price": "484.27",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Low fat",
+            "Fruit"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Supper Chinese Cabbage",
+        "image": "/cabbage.png",
+        "price": "318.05",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "3.0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 2,
+            "discountedAmount": "6.36",
+            "discountedPrice": "311.69"
+        },
+        "tags": [
+            "Healthy",
+            "Low fat",
+            "Breakfast"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 46,
+        "name": "Blue Green Apple",
+        "image": "/apple.png",
+        "price": "498.82",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "2.5",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 46,
+            "discountedAmount": "229.46",
+            "discountedPrice": "269.36"
+        },
+        "tags": [
+            "Healthy",
+            "Vegetarian",
+            "Kid foods"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 47,
+        "name": "Potato",
+        "image": "/potato.png",
+        "price": "447.35",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "1.0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Tiffin",
+            "Snacks",
+            "Meat"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 48,
+        "name": "Eggplant",
+        "image": "/eggplant.png",
+        "price": "265.80",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "4.3",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Kid foods",
+            "Vegetarian",
+            "Snacks"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 49,
+        "name": "Green Cauliflower",
+        "image": "/cauliflower.png",
+        "price": "165.19",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "4.2",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 4,
+            "discountedAmount": "6.61",
+            "discountedPrice": "158.58"
+        },
+        "tags": [
+            "Healthy",
+            "Breakfast",
+            "Launch"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 50,
+        "name": "Green Chinese Cabbage",
+        "image": "/cabbage.png",
+        "price": "204.99",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "2.2",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Fruit",
+            "Low fat"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 51,
+        "name": "Green Malta",
+        "image": "/malta.png",
+        "price": "282.41",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "1.9",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 17,
+            "discountedAmount": "48.01",
+            "discountedPrice": "234.40"
+        },
+        "tags": [
+            "Fruit",
+            "Healthy",
+            "Vitamins"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 52,
+        "name": "Best Green Chili",
+        "image": "/chili.png",
+        "price": "130.85",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "3.1",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Tiffin",
+            "Snacks",
+            "Launch"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 53,
+        "name": "Best Corn",
+        "image": "/corn.png",
+        "price": "135.20",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "2.7",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Kid foods",
+            "Snacks",
+            "Tiffin"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 54,
+        "name": "Red Okra",
+        "image": "/okra.png",
+        "price": "96.01",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "1.6",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Bread",
+            "Fruit"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 55,
+        "name": "Blue Tomato",
+        "image": "/tomato.png",
+        "price": "531.29",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 70,
+            "discountedAmount": "371.90",
+            "discountedPrice": "159.39"
+        },
+        "tags": [
+            "Tiffin",
+            "Snacks",
+            "Meat"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 56,
+        "name": "Best Green Apple",
+        "image": "/apple.png",
+        "price": "23.67",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "3.7",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 4,
+            "discountedAmount": "0.95",
+            "discountedPrice": "22.72"
+        },
+        "tags": [
+            "Bread",
+            "Healthy",
+            "Launch"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 57,
+        "name": "Blue Green Lettuce",
+        "image": "/lettuce.png",
+        "price": "212.81",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "2.1",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Kid foods",
+            "Snacks",
+            "Bread"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 58,
+        "name": "Okra",
+        "image": "/okra.png",
+        "price": "617.43",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Low fat",
+            "Healthy",
+            "Meat"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 59,
+        "name": "Green Corn",
+        "image": "/corn.png",
+        "price": "625.26",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "1.7",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 9,
+            "discountedAmount": "56.27",
+            "discountedPrice": "568.99"
+        },
+        "tags": [
+            "Kid foods",
+            "Low fat",
+            "Meat"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 60,
+        "name": "Corn",
+        "image": "/corn.png",
+        "price": "90.04",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "2.6",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 18,
+            "discountedAmount": "16.21",
+            "discountedPrice": "73.83"
+        },
+        "tags": [
+            "Kid foods",
+            "Low fat",
+            "Vitamins"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 61,
+        "name": "Tomato",
+        "image": "/tomato.png",
+        "price": "325.37",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "1.8",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 43,
+            "discountedAmount": "139.91",
+            "discountedPrice": "185.46"
+        },
+        "tags": [
+            "Meat",
+            "Fruit",
+            "Tiffin"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 62,
+        "name": "Best Tomato",
+        "image": "/tomato.png",
+        "price": "8.92",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "1.5",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 64,
+            "discountedAmount": "5.71",
+            "discountedPrice": "3.21"
+        },
+        "tags": [
+            "Healthy",
+            "Snacks",
+            "Tiffin"
+        ],
+        "category_id": "3",
+        "category": {
+            "id": "3",
+            "image": "fishCategory.png",
+            "name": "River Fish"
+        }
+    },
+    {
+        "id": 63,
+        "name": "Blue Cauliflower",
+        "image": "/cauliflower.png",
+        "price": "155.75",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 21,
+            "discountedAmount": "32.71",
+            "discountedPrice": "123.04"
+        },
+        "tags": [
+            "Vegetarian",
+            "Tiffin",
+            "Dinner"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 64,
+        "name": "New Green Apple",
+        "image": "/apple.png",
+        "price": "616.91",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "4.1",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 29,
+            "discountedAmount": "178.90",
+            "discountedPrice": "438.01"
+        },
+        "tags": [
+            "Kid foods",
+            "Snacks",
+            "Healthy"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 65,
+        "name": "Green Green Lettuce",
+        "image": "/lettuce.png",
+        "price": "7.34",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "2.9",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Fruit",
+            "Healthy",
+            "Low fat"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 66,
+        "name": "Green Lettuce",
+        "image": "/lettuce.png",
+        "price": "72.52",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 47,
+            "discountedAmount": "34.08",
+            "discountedPrice": "38.44"
+        },
+        "tags": [
+            "Breakfast",
+            "Tiffin",
+            "Bread"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 67,
+        "name": "Green Tomato",
+        "image": "/tomato.png",
+        "price": "599.43",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "2.5",
+        "isTopRated": false,
+        "discount": {
+            "percentage": 65,
+            "discountedAmount": "389.63",
+            "discountedPrice": "209.80"
+        },
+        "tags": [
+            "Healthy",
+            "Snacks",
+            "Tiffin"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 68,
+        "name": "Supper Okra",
+        "image": "/okra.png",
+        "price": "768.93",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "4.4",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Kid foods",
+            "Snacks",
+            "Fruit"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 69,
+        "name": "Chinese Cabbage",
+        "image": "/cabbage.png",
+        "price": "44.07",
+        "isFeatured": false,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "2.3",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Dinner",
+            "Breakfast",
+            "Healthy"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 70,
+        "name": "Best Potato",
+        "image": "/potato.png",
+        "price": "36.38",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Breakfast",
+            "Meat",
+            "Dinner"
+        ],
+        "category_id": "6",
+        "category": {
+            "id": "6",
+            "image": "snacksCategory.png",
+            "name": "Snacks"
+        }
+    },
+    {
+        "id": 71,
+        "name": "Green Green Apple",
+        "image": "/apple.png",
+        "price": "207.29",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "4.1",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Fruit",
+            "Meat",
+            "Bread"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 72,
+        "name": "Green Eggplant",
+        "image": "/eggplant.png",
+        "price": "20.18",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": false,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Bread",
+            "Breakfast",
+            "Vitamins"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 73,
+        "name": "Supper Tomato",
+        "image": "/tomato.png",
+        "price": "214.22",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": true,
+        "rating": "4.8",
+        "isTopRated": true,
+        "discount": null,
+        "tags": [
+            "Bread",
+            "Vitamins",
+            "Healthy"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    },
+    {
+        "id": 74,
+        "name": "New Tomato",
+        "image": "/tomato.png",
+        "price": "72.74",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": true,
+        "isPopular": false,
+        "rating": "4.1",
+        "isTopRated": true,
+        "discount": {
+            "percentage": 49,
+            "discountedAmount": "35.64",
+            "discountedPrice": "37.10"
+        },
+        "tags": [
+            "Low fat",
+            "Healthy",
+            "Vitamins"
+        ],
+        "category_id": "2",
+        "category": {
+            "id": "2",
+            "image": "/fruitsCategory.png",
+            "name": "Fresh Fruit"
+        }
+    },
+    {
+        "id": 75,
+        "name": "Supper Corn",
+        "image": "/corn.png",
+        "price": "23.93",
+        "isFeatured": true,
+        "isHot": true,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "1.6",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Fruit",
+            "Bread",
+            "Snacks"
+        ],
+        "category_id": "4",
+        "category": {
+            "id": "4",
+            "image": "meatCategory.png",
+            "name": "Meat"
+        }
+    },
+    {
+        "id": 76,
+        "name": "Green Okra",
+        "image": "/okra.png",
+        "price": "136.79",
+        "isFeatured": true,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "1.8",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Bread",
+            "Kid foods",
+            "Breakfast"
+        ],
+        "category_id": "1",
+        "category": {
+            "id": "1",
+            "image": "/vegetableCategory.png",
+            "name": "Vegetables"
+        }
+    },
+    {
+        "id": 77,
+        "name": "New Green Chili",
+        "image": "/chili.png",
+        "price": "45.96",
+        "isFeatured": false,
+        "isHot": false,
+        "isBestSeller": false,
+        "isPopular": true,
+        "rating": "0",
+        "isTopRated": false,
+        "discount": null,
+        "tags": [
+            "Healthy",
+            "Vegetarian",
+            "Tiffin"
+        ],
+        "category_id": "5",
+        "category": {
+            "id": "5",
+            "image": "soft-drinkCategory.png",
+            "name": "Water and Drinks"
+        }
+    }
+]

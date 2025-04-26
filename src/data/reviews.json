@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Robert Fox",
+        "userType": "Customer",
+        "imageSrc": "/robert.png",
+        "imageAlt": "profile picture",
+        "description": "I really enjoy shopping on this website. It's so easy to find what I need, and I love the fast delivery. I also appreciate the amazing deals on all my favorite products.",
+        "rating": "4.2"
+    },
+    {
+        "id": "2",
+        "name": "Dianne Russell",
+        "userType": "Customer",
+        "imageSrc": "/dianne.png",
+        "imageAlt": "profile picture",
+        "description": "This platform makes shopping so simple! I love how easy it is to navigate and how quickly I can check out. The customer support is also top-notch.",
+        "rating": "4.8"
+    },
+    {
+        "id": "3",
+        "name": "Eleanor Pena",
+        "userType": "Customer",
+        "imageSrc": "/eleanor.png",
+        "imageAlt": "profile picture",
+        "description": "I've been a regular customer for a while now, and I am always satisfied with my purchases. The website is reliable, and delivery is always on time.",
+        "rating": "5.0"
+    },
+    {
+        "id": "4",
+        "name": "Amelia Hart",
+        "userType": "Admin",
+        "imageSrc": "/amelia.png",
+        "imageAlt": "profile picture",
+        "description": "I work to ensure that every customer has a smooth and enjoyable shopping experience. We constantly improve the platform, making it easy for you to find the products you love.",
+        "rating": "4.9"
+    },
+    {
+        "id": "5",
+        "name": "Sophia Evans",
+        "userType": "Admin",
+        "imageSrc": "/sophia.png",
+        "imageAlt": "profile picture",
+        "description": "As part of the admin team, I ensure all products are listed accurately, and we offer the best deals for our customers. We're always here to make your shopping experience better!",
+        "rating": "4.7"
+    },
+    {
+        "id": "6",
+        "name": "Olivia Taylor",
+        "userType": "Customer",
+        "imageSrc": "/olivia.png",
+        "imageAlt": "profile picture",
+        "description": "I absolutely love how easy it is to shop here. Everything is well-organized, and I can always count on fast delivery. The selection of products is amazing!",
+        "rating": "4.3"
+    },
+    {
+        "id": "7",
+        "name": "Lucy Wilson",
+        "userType": "Admin",
+        "imageSrc": "/lucy.png",
+        "imageAlt": "profile picture",
+        "description": "My job is to optimize the shopping experience for all customers. We continuously work to improve the user interface, making sure it's always intuitive and enjoyable for everyone.",
+        "rating": "5.0"
+    },
+    {
+        "id": "8",
+        "name": "Maria Clark",
+        "userType": "Customer",
+        "imageSrc": "/maria.png",
+        "imageAlt": "profile picture",
+        "description": "This website has everything I need. I can always find what I'm looking for, and the checkout process is quick and easy. Plus, I love the variety of products available.",
+        "rating": "3.9"
+    }
+]
