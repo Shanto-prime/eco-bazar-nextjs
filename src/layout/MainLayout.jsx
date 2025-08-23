@@ -1,4 +1,5 @@
 import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 import React from "react";
 
 const MainLayout = ({children}) => {
@@ -7,6 +8,7 @@ const MainLayout = ({children}) => {
         <>
             <Nav/>
             {children}
+            <Footer />
         </>
     );
 };

@@ -1,7 +1,7 @@
 "use client";
 
-import AddCart from "@/components/addCart";
-import Cart from "@/components/cart";
+import AddCart from "@/components/partials/addCart";
+import Cart from "@/components/partials/cart";
 import Deals from "@/components/home/Deals";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import HeroSection from "@/components/home/HeroSection";
@@ -24,14 +24,10 @@ export default function Home() {
                 <NewProduct/>
                 <UserReview/>
                 <SocialMedia/>
-                <div className="bg-[#2093ff] mt-5 py-5 px-4 container mx-auto">
-                    <p>Offers</p>
-                    <p>Newest Products</p>
-                    <p>Reviews</p>
-                    <p>Newsletters</p>
+                {/* <div className="bg-[#2093ff] mt-5 py-5 px-4 container mx-auto">
                     <Cart></Cart>
                     <AddCart></AddCart>
-                </div>
+                </div> */}
             </MainLayout>
         </>
     );

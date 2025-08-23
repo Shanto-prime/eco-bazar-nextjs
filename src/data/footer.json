@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "image": "/vegetableCategory.png",
+        "name": "Vegetables"
+    },
+    {
+        "id": "2",
+        "image": "/fruitsCategory.png",
+        "name": "Fresh Fruit"
+    }
+]

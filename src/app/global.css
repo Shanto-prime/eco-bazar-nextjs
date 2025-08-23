@@ -55,3 +55,34 @@
 .swiper-pagination{
     bottom: 5px !important;
 }
+.footer_about_contacts p span {
+    color: #fff;
+}
+.mobile_apps{
+    display: flex;
+    gap: 8px;
+    .app{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 10px;
+        border-radius: 6px;
+        background:  rgba(51, 51, 51, 1);
+        .store_wrapper{
+            width: 24px;
+            height: 24px;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .store_name{
+            color: #fff;
+            font-size: 12px;
+            font-weight: 500;
+            span{
+                color: rgba(179, 179, 179, 1);
+            }
+        }
+    }
+}
